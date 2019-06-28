@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit-task</title>
+</head>
+<body>
+    <section>
+        <div class="fruit">
+            <h2>Fruit Shop</h2>
+        </div>
+        <div class="have">
+            <h3><strong>I have RS.</strong></h3>
+            <input type="number" min="1">
+        </div>
+        <div class="total">
+            <h2 id="mytotal-money">Your total is RS.<span></span></h2>
+        </div>
+        </section>
+        <section class="main-div">
+            <div class="apple">
+            <h4>Rs.10</h4>
+         <figure>
+             <img src="images.jpg" alt="apple-pic">
+             <figcaption>Apple</figcaption>
+         </figure>
+         <button class="minusbtn" onclick="minus1()">-</button>
+         <button class="centerbtn" id="center">0</button>
+         <button class="plusbtn" onclick="add1()">+</button>
+            </div>
+            <div class="orange">
+         <h4>Rs.15</h4>
+         <figure>
+             <img src="download.jpg" alt="orange-pic">
+             <figcaption>Orange</figcaption>
+         </figure>
+         <button class="minusbtn" onclick="minus2()">-</button>
+         <button class="centerbtn" id="center2">0</button>
+         <button class="plusbtn" onclick="add2()">+</button>
+        </div>
+        <div class="banana">
+         <h4>Rs.7</h4>
+         <figure>
+             <img src="download (1).jpg" alt="banana-pic">
+             <figcaption>Banana</figcaption>
+         </figure>
+        
+        <button class="minusbtn" onclick="minus3()">-</button>
+        <button class="centerbtn" id="center3">0</button>
+        <button class="plusbtn" onclick="add3()">+</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
